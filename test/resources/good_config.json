@@ -1,0 +1,24 @@
+{
+    "rootTableName": "/gtsam_meme",
+    "ntServerURI": "192.168.1.226",
+    "cameras": [
+        {
+            "subtableName": "sim_camera1",
+            "pixelNoise": 10
+        },
+        {
+            "subtableName": "sim_camera2",
+            "pixelNoise": 12
+        }
+    ],
+    "rotNoise": [
+        0.0087263889,
+        0.0087263889,
+        0.0087263889
+    ],
+    "transNoise": [
+        0.004,
+        0.004,
+        0.004
+    ]
+}
